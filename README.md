@@ -70,3 +70,4 @@ I project it uniformly onto the axes. x and y both take values from 1 to 14.
 In the genetic algorithm, the evaluate function is set to evaluate the fitness of
 an individual and FitnessMax is created to maximise the fitness of the target,
 selecting the best individual from the randomly selected individuals in tournsize.
+![image](https://user-images.githubusercontent.com/39352544/179615155-98744472-e506-428f-9876-a7665d10f787.png)
