@@ -15,8 +15,11 @@ algorithms[2]. The adaptive and learning capabilities of neural networks are wel
 suited to this problem, acting as directional controllers for the snake, as well as
 controllers for the food. For competition between two agents, we can consider
 co-evolutionary approaches to accomplish this[3].
+
 #Method
+
 ##Reproducible methods and design
+
 Analysis: The goals of the snake can be simply classified as follows.
 1. Survive longer (not hitting its head on the wall or its own body)
 2. Get a higher score (eat more food)
@@ -36,6 +39,7 @@ longer. As an example, if the food is generated in front of the snake's head
 every time, it will be easily eaten. With the neural network, the food gets the
 coordinates of the place where it should be placed next time. Through training,
 a neural network can be selected that is more in line with the requirements.
+
 ##Quality of the design of the algorithm
 After inputting the appropriate parameters, the neural network will output the
 value we require (which may not be so intelligent at first). After training and
