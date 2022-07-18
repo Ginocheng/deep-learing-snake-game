@@ -1,7 +1,7 @@
-##This project belongs to Cheng Ding 
+## This project belongs to Cheng Ding 
 # deep-learing-snake-game
 This project is to discuss about training an AI to play snake game
-#Introduction
+# Introduction
 Snake is an arcade game that originated in 1976. In the game, the player
 controls a long, thin, straight line (commonly known as a snake) that keeps
 moving, and the player can only control the direction of the snake's head (up
@@ -16,9 +16,9 @@ suited to this problem, acting as directional controllers for the snake, as well
 controllers for the food. For competition between two agents, we can consider
 co-evolutionary approaches to accomplish this[3].
 
-#Method
+# Method
 
-##Reproducible methods and design
+## Reproducible methods and design
 
 Analysis: The goals of the snake can be simply classified as follows.
 1. Survive longer (not hitting its head on the wall or its own body)
@@ -40,7 +40,7 @@ every time, it will be easily eaten. With the neural network, the food gets the
 coordinates of the place where it should be placed next time. Through training,
 a neural network can be selected that is more in line with the requirements.
 
-##Quality of the design of the algorithm
+## Quality of the design of the algorithm
 After inputting the appropriate parameters, the neural network will output the
 value we require (which may not be so intelligent at first). After training and
 learning, better outputs can be obtained[4]. So a genetic algorithm is used,
